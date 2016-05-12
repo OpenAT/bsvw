@@ -1,0 +1,16 @@
+.btn-primary {
+  background: #FFCC01;
+  background-color: #FFCC01;
+  border: none;
+  transition: background-color .3s; }
+
+.btn-primary:hover {
+  background: #FFCC01; }
+
+.btn-primary:active {
+  background-color: #FFCC01; }
+
+.btn-primary:visited {
+  background-color: #FFCC01; }
+
+/*# sourceMappingURL=bsvw.css.map */

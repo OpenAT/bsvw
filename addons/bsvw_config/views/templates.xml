@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+    <!-- Load custom CSS and JS for the website -->
+    <template id="bsvw_assets_frontend" inherit_id="website_forum.assets_frontend" name="bsvw css">
+        <xpath expr='//script[@src="/website_forum/static/src/js/website_forum.js"]' position="after">
+            <link rel="stylesheet" href='/bsvw_config/static/src/css/bsvw.css'/>
+        </xpath>
+    </template>
+    <!-- adding Google webmaster tools site verifivation id -->
+        <!--
+        <template id="google_webmastertools_site_verification" inherit_id="website.layout" name="Google Webmastertools site verification">
+            <xpath expr="//head//title" position="after">
+                <meta name="google-site-verification" content="google1234567890.html"/>
+            </xpath>
+        </template>
+        -->
+    </data>
+</openerp>
