@@ -1,0 +1,130 @@
+.btn-primary {
+  background: #FFCC01;
+  background-color: #FFCC01;
+  border: none;
+  transition: background-color .3s; }
+
+.btn-primary:hover {
+  background: #FFCC01; }
+
+.btn-primary:active {
+  background-color: #FFCC01; }
+
+.btn-primary:visited {
+  background-color: #FFCC01; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Bitter';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Bitter-Regular"), url(http://fonts.gstatic.com/s/bitter/v7/VyzH0eNzfhxMjuJ3chtK7H-_kf6ByYO6CLYdB4HQE-Y.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+/* latin */
+@font-face {
+  font-family: 'Bitter';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Bitter-Regular"), url(http://fonts.gstatic.com/s/bitter/v7/HEpP8tJXlWaYHimsnXgfCOvvDin1pK8aKteLpeZ5c0A.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+/* latin-ext */
+@font-face {
+  font-family: 'Magra';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Magra"), url(http://fonts.gstatic.com/s/magra/v4/AcZ5oy5lFSDOaDRdF5XLe4DGDUGfDkXyfkzVDelzfFk.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+/* latin */
+@font-face {
+  font-family: 'Magra';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Magra"), url(http://fonts.gstatic.com/s/magra/v4/zQYEideR9pInJzQZsxxg-KCWcynf_cDxXwCLxiixG1c.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+/* latin-ext */
+@font-face {
+  font-family: 'Oxygen';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Oxygen"), local("Oxygen-Regular"), url(http://fonts.gstatic.com/s/oxygen/v5/LC4u_jU27qpsdszDEgeU_3-_kf6ByYO6CLYdB4HQE-Y.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+/* latin */
+@font-face {
+  font-family: 'Oxygen';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Oxygen"), local("Oxygen-Regular"), url(http://fonts.gstatic.com/s/oxygen/v5/qBSyz106i5ud7wkBU-FrPevvDin1pK8aKteLpeZ5c0A.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+body {
+  line-height: 1;
+  font-family: Verdana, Arial, Helvetica, sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Magra', serif;
+  margin-bottom: 0.75em; }
+
+h1 {
+  font-size: 1.3em; }
+
+h2 {
+  font-size: 1.3em; }
+
+h3 {
+  font-size: 1.2em; }
+
+h4 {
+  font-size: 1.1em;
+  margin-bottom: 0.125em;
+  padding: 0; }
+
+p {
+  font-size: 1em;
+  line-height: 1.518em;
+  margin: 0 0 0.75em 0; }
+
+#main {
+  background: transparent url("http://www.braille.at/fileadmin/braille.at/img/kacheln.jpg") top left !important; }
+
+header #top_menu.navbar-nav {
+  background-color: #f5f4f4;
+  color: #3c3c3c;
+  text-decoration: none;
+  font-size: 1.250em;
+  text-transform: uppercase;
+  font-family: 'Magra', serif;
+  margin: 0.11em 0 0.15em 0;
+  padding: 0.26em 0.938em 0.26em 0; }
+header .nav a {
+  text-transform: uppercase; }
+header .nav a:hover {
+  background-color: #3f3f3f !important;
+  color: white !important; }
+header .nav a:active {
+  background-color: #3f3f3f !important;
+  color: white !important; }
+header .dropdown-menu {
+  background-color: rgba(255, 255, 255, 0.8); }
+  header .dropdown-menu a {
+    text-transform: capitalize !important; }
+
+footer {
+  padding-top: 1.7em;
+  width: 100%;
+  min-height: 24.125em;
+  background-color: #3f3f3f;
+  color: #ffffff;
+  font-family: 'Oxygen', serif;
+  font-size: 0.875em;
+  color: white; }
+  footer a {
+    color: white; }
+  footer a:hover {
+    background-color: #ffffff;
+    color: #3f3f3f;
+    text-decoration: none; }
+  footer .col-md-4 {
+    border-right: 1px solid #808080; }
+  footer .col-md-4:last-child {
+    border-right: none; }
+
+/*# sourceMappingURL=bsvw.css.map */

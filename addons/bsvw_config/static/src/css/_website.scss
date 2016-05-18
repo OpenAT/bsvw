@@ -1,0 +1,24 @@
+body {
+    line-height: 1;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Magra', serif;
+    margin-bottom: 0.75em;
+}
+
+h1 { font-size: 1.3em; }
+h2 { font-size: 1.3em; }
+h3 { font-size: 1.2em; }
+h4 { font-size: 1.1em; margin-bottom: 0.125em; padding: 0;}
+
+p {
+    font-size: 1em;
+    line-height: 1.518em;
+    margin: 0 0 0.75em 0;
+}
+
+#main {
+  background: transparent url('http://www.braille.at/fileadmin/braille.at/img/kacheln.jpg') top left !important;
+}
