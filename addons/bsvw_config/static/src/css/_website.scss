@@ -19,6 +19,70 @@ p {
     margin: 0 0 0.75em 0;
 }
 
+a {
+  color: #3f3f3f;
+  //text-decoration: underline;//
+  :hover {
+    color: #ffffff;
+    background-color: #3f3f3f;
+    text-decoration: underline;
+  }
+}
+.btn-primary {
+      background: #3f3f3f !important;
+      background-color: #3f3f3f !importantt;
+}
+
 #main {
   background: transparent url('http://www.braille.at/fileadmin/braille.at/img/kacheln.jpg') top left !important;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+}
+
+.parallax > div > div {
+  display: initial;
+}
+
+// DONATION PANEL //
+.panel-footer {
+  background-color: rgba(245, 245, 245, 0);
+  img {
+      height: 120px;
+    }
+}
+h3.amount_title {
+  text-align: center !important;
+}
+#wsd-checkout-box .text-left {
+  text-align: center;
+}
+
+//CHECKOUT FORM //
+#wsd_checkout_form .form-control-feedback {
+  top: 18px !important;
+}
+
+// CART //
+.fa-shopping-cart:before {
+    content: "\00a0\f004\00a0";
+}
+#cart_products .glyphicon-remove:before {
+  content: "\e020";
+}
+.table-striped > tbody > tr:nth-child(odd) > td, .table-striped > tbody > tr:nth-child(odd) > th {
+  background-color: transparent;
+}
+.small_cart {
+  max-width: 700px;
+  margin: auto;
+}
+h3.small_cart_header {
+  max-width: 700px;
+  margin: auto !important;
+}
+#wsd_checkout_steps_header {
+  display: none;
 }
