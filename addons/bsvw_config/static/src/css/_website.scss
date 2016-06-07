@@ -3,15 +3,19 @@ body {
     font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
+main {
+  background-color: #f5f4f4;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Magra', serif;
     margin-bottom: 0.75em;
 }
 
-h1 { font-size: 1.3em; }
-h2 { font-size: 1.3em; }
-h3 { font-size: 1.2em; }
-h4 { font-size: 1.1em; margin-bottom: 0.125em; padding: 0;}
+h1 { font-size: 1.5em; color: black; }
+h2 { font-size: 1.5em; color: black; }
+h3 { font-size: 1.5em; color: black; }
+h4 { font-size: 1.2em; margin-bottom: 0.125em; padding: 0; color: black; }
 
 p {
     font-size: 1em;
@@ -21,7 +25,7 @@ p {
 
 a {
   color: #3f3f3f;
-  //text-decoration: underline;//
+  text-decoration: underline;
   :hover {
     color: #ffffff;
     background-color: #3f3f3f;
@@ -33,9 +37,11 @@ a {
       background-color: #3f3f3f !importantt;
 }
 
+/*
 #main {
   background: transparent url('http://www.braille.at/fileadmin/braille.at/img/kacheln.jpg') top left !important;
 }
+*/
 
 .container {
   width: 100%;
@@ -57,7 +63,7 @@ h3.amount_title {
   text-align: center !important;
 }
 #wsd-checkout-box .text-left {
-  text-align: center;
+  /*text-align: center;*/
 }
 
 //CHECKOUT FORM //
@@ -72,6 +78,7 @@ h3.amount_title {
 #cart_products .glyphicon-remove:before {
   content: "\e020";
 }
+
 .table-striped > tbody > tr:nth-child(odd) > td, .table-striped > tbody > tr:nth-child(odd) > th {
   background-color: transparent;
 }
@@ -85,4 +92,8 @@ h3.small_cart_header {
 }
 #wsd_checkout_steps_header {
   display: none;
+}
+
+.breadcrumb {
+  background-color: #e8e8e8;
 }

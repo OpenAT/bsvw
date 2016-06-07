@@ -59,23 +59,30 @@ body {
   line-height: 1;
   font-family: Verdana, Arial, Helvetica, sans-serif; }
 
+main {
+  background-color: #f5f4f4; }
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Magra', serif;
   margin-bottom: 0.75em; }
 
 h1 {
-  font-size: 1.3em; }
+  font-size: 1.5em;
+  color: black; }
 
 h2 {
-  font-size: 1.3em; }
+  font-size: 1.5em;
+  color: black; }
 
 h3 {
-  font-size: 1.2em; }
+  font-size: 1.5em;
+  color: black; }
 
 h4 {
-  font-size: 1.1em;
+  font-size: 1.2em;
   margin-bottom: 0.125em;
-  padding: 0; }
+  padding: 0;
+  color: black; }
 
 p {
   font-size: 1em;
@@ -83,7 +90,8 @@ p {
   margin: 0 0 0.75em 0; }
 
 a {
-  color: #3f3f3f; }
+  color: #3f3f3f;
+  text-decoration: underline; }
   a :hover {
     color: #ffffff;
     background-color: #3f3f3f;
@@ -93,9 +101,11 @@ a {
   background: #3f3f3f !important;
   background-color: #3f3f3f !important t; }
 
+/*
 #main {
-  background: transparent url("http://www.braille.at/fileadmin/braille.at/img/kacheln.jpg") top left !important; }
-
+  background: transparent url('http://www.braille.at/fileadmin/braille.at/img/kacheln.jpg') top left !important;
+}
+*/
 .container {
   width: 100%;
   max-width: 1440px; }
@@ -112,7 +122,7 @@ h3.amount_title {
   text-align: center !important; }
 
 #wsd-checkout-box .text-left {
-  text-align: center; }
+  /*text-align: center;*/ }
 
 #wsd_checkout_form .form-control-feedback {
   top: 18px !important; }
@@ -137,6 +147,9 @@ h3.small_cart_header {
 #wsd_checkout_steps_header {
   display: none; }
 
+.breadcrumb {
+  background-color: #e8e8e8; }
+
 .ppt_opc #product_detail {
   background-color: rgba(245, 245, 245, 0.34);
   padding: 10px; }
@@ -145,17 +158,25 @@ h3.small_cart_header {
   max-width: 700px;
   margin: 0px auto; }
 
+#wsd_checkout_form .text-danger {
+  color: #db1921;
+  font-family: 'Magra', serif;
+  font-size: 1.2em; }
 #wsd_checkout_form .amount_title {
   display: none; }
 
 body .oe_website_sale h4.payment_interval_ids {
   margin: 2em auto 30px; }
 
+#payment_method .tab-content {
+  background-color: white;
+  padding: 10px; }
+
 header .navbar-default {
   background-color: transparent;
   border-color: transparent; }
 header #top_menu.navbar-nav {
-  background-color: transparent !important;
+  /*background-color: transparent !important;*/
   color: #3c3c3c;
   text-decoration: none;
   font-size: 1.250em;
@@ -171,10 +192,10 @@ header .nav a:hover {
 header .nav a:active {
   background-color: #3f3f3f !important;
   color: white !important; }
-header .dropdown-menu {
-  background-color: rgba(255, 255, 255, 0.8); }
-  header .dropdown-menu a {
-    text-transform: capitalize !important; }
+header .dropdown-menu a {
+  text-transform: capitalize !important; }
+header .dropdown-menu > li > a {
+  font-size: 1.2em; }
 
 footer {
   padding-top: 1.7em;
@@ -197,6 +218,6 @@ footer {
     border-right: none; }
 
 #product_detail .panel-default {
-  background-color: rgba(255, 255, 255, 0.6); }
+  /*background-color: rgba(255, 255, 255, 0.6);*/ }
 
 /*# sourceMappingURL=bsvw.css.map */

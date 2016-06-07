@@ -8,10 +8,21 @@
   margin: 0px auto;
 }
 #wsd_checkout_form {
+  .text-danger {
+    color: $bsvwred;
+    font-family: 'Magra', serif;
+    font-size: 1.2em;
+
+  }
   .amount_title {
     display: none;
   }
 }
 body .oe_website_sale h4.payment_interval_ids {
   margin: 2em auto 30px;
+}
+
+#payment_method .tab-content {
+  background-color: white;
+  padding: 10px;
 }
