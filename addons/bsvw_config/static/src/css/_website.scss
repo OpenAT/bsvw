@@ -35,6 +35,7 @@ a {
 .btn-primary {
       background: #3f3f3f !important;
       background-color: #3f3f3f !importantt;
+      text-decoration: initial;
 }
 
 /*
@@ -68,7 +69,7 @@ h3.amount_title {
 
 //CHECKOUT FORM //
 #wsd_checkout_form .form-control-feedback {
-  top: 18px !important;
+  top: 20px !important;
 }
 
 // CART //

@@ -1,6 +1,11 @@
-.ppt_opc #product_detail {
-  background-color: rgba(245, 245, 245, 0.34);
-  padding: 10px;
+.ppt_opc {
+  .small_cart_header a {
+    text-decoration: initial !important;
+  }
+  #product_detail {
+    background-color: rgba(245, 245, 245, 0.34);
+    padding: 10px;
+  }
 }
 
 .row #wsd_checkout_form .row, #wsd_checkout_form .row, .product_price.mt16, .payment_interval_ids {
@@ -25,4 +30,22 @@ body .oe_website_sale h4.payment_interval_ids {
 #payment_method .tab-content {
   background-color: white;
   padding: 10px;
+}
+
+.has-error {
+  .form-control {
+    border-color: $bsvwred;
+  }
+  .form-control-feedback {
+    color: $bsvwred;
+  }
+}
+
+.has-success {
+  .form-control {
+    border-color: $bsvwgreen;
+  }
+  .form-control-feedback {
+    color: $bsvwgreen;
+  }
 }

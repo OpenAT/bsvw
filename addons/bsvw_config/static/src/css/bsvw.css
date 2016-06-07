@@ -99,7 +99,8 @@ a {
 
 .btn-primary {
   background: #3f3f3f !important;
-  background-color: #3f3f3f !important t; }
+  background-color: #3f3f3f !important t;
+  text-decoration: initial; }
 
 /*
 #main {
@@ -125,7 +126,7 @@ h3.amount_title {
   /*text-align: center;*/ }
 
 #wsd_checkout_form .form-control-feedback {
-  top: 18px !important; }
+  top: 20px !important; }
 
 .fa-shopping-cart:before {
   content: "\00a0\f004\00a0"; }
@@ -150,6 +151,8 @@ h3.small_cart_header {
 .breadcrumb {
   background-color: #e8e8e8; }
 
+.ppt_opc .small_cart_header a {
+  text-decoration: initial !important; }
 .ppt_opc #product_detail {
   background-color: rgba(245, 245, 245, 0.34);
   padding: 10px; }
@@ -172,6 +175,16 @@ body .oe_website_sale h4.payment_interval_ids {
   background-color: white;
   padding: 10px; }
 
+.has-error .form-control {
+  border-color: #db1921; }
+.has-error .form-control-feedback {
+  color: #db1921; }
+
+.has-success .form-control {
+  border-color: #3DDB19; }
+.has-success .form-control-feedback {
+  color: #3DDB19; }
+
 header .navbar-default {
   background-color: transparent;
   border-color: transparent; }
@@ -185,7 +198,8 @@ header #top_menu.navbar-nav {
   margin: 0.11em 0 0.15em 0;
   padding: 0.26em 0.938em 0.26em 0; }
 header .nav a {
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  text-decoration: initial; }
 header .nav a:hover {
   background-color: #3f3f3f !important;
   color: white !important; }
