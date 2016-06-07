@@ -185,6 +185,20 @@ body .oe_website_sale h4.payment_interval_ids {
 .has-success .form-control-feedback {
   color: #3DDB19; }
 
+#wsd_checkout_form .price_donate .input-group-addon {
+  min-width: 0; }
+
+#price_donate-error .form-control-feedback {
+  top: 11px !important;
+  right: -30px; }
+
+#wsd-checkout-box .payment_interval_ids.text-left {
+  text-align: center; }
+
+.wsd_opc_payment, .wsd_opc_delivery {
+  max-width: 700px;
+  margin: auto; }
+
 header .navbar-default {
   background-color: transparent;
   border-color: transparent; }
@@ -230,6 +244,9 @@ footer {
     border-right: 1px solid #808080; }
   footer .col-md-4:last-child {
     border-right: none; }
+
+#oe_main_menu_navbar li a, #oe_main_menu_navbar li button {
+  text-decoration: initial !important; }
 
 #product_detail .panel-default {
   /*background-color: rgba(255, 255, 255, 0.6);*/ }
