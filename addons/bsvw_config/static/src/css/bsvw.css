@@ -99,6 +99,7 @@ header a.navbar-brand img {
     font-size: 2.0vw;
 }
 
+
 @media (min-width: 500px) {
     .form-inline .form-group {
         display: inherit;
@@ -112,6 +113,9 @@ TODO Check ob diese Settings auch über BOOTSTRAP einstellbar sind
     padding: auto;
 }
 .row .wsd_opc_delivery {
+    display: none;
+}
+#website_sale_login_info {
     display: none;
 }
 
