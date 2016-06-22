@@ -1,0 +1,1047 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+img, embed, object, video {
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+abbr, acronym {
+    border-bottom: .1em dotted;
+    cursor: help;
+}
+h3, b, strong {
+	font-weight: bold;
+}
+
+/*.invisible {
+	display: none;
+}*/
+
+.invisible {
+	display: inline;
+	height: 1px;
+	left: -1000px;
+	overflow: hidden;
+	position: absolute;
+	top: -1000px;
+	width: 1px;
+}
+
+.align-center {
+	text-align: center;
+}
+
+.clear {
+	clear: both;
+}
+
+.spacer {
+	margin-top: 10px;
+}
+
+#wrapper {
+	margin: 0 auto;
+	width: 100%;
+	min-width: 1024px;
+	/*min-width: 93.75em;*/
+	overflow: hidden;
+	position: relative;
+}
+
+#header {
+	margin: 0 auto;
+	/*width: 93.75em;*/
+	/*padding-left: 23px;*/
+	width: 981px;
+	height: 29.5em;
+}
+
+#header-end-border {
+	position: absolute;
+	top: 29.4em;
+	left: 0;
+	width: 100%;
+	border-top: 1px solid #f2f4f1;
+	/*z-index: 10;*/
+}
+
+#header-backgroundcolor {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 29.5em;
+	z-index: -1;
+	background-color: #eeeeee;
+}
+
+#header-background {
+	width: 100%;
+	height: 29.5em;
+	/*height: 100%;*/
+	margin-left: -750px;
+	position: absolute;
+	left: 50%;
+	top: 0;
+	z-index: -1;
+}
+
+.stretch {
+	height: 29.5em;
+	min-width: 1500px;
+	min-height: 29.5em;
+}
+
+#logo_alt {
+	float: left;
+	margin: 6.813em 0 0 18.625em;
+	background: transparent url('/fileadmin/braille.at/img/logo.png') no-repeat top left;
+	width: 7.063em;
+	height: 8.250em;
+}
+
+#claim_alt {
+	float: left;
+	margin: 6.563em 0 0 6.5em;
+	background: transparent url('/fileadmin/braille.at/img/claim.png') no-repeat top left;
+	width: 29.375em;
+	height: 4.688em;
+	text-indent: -99999px;
+}
+
+#logo_claim_alt {
+	float: left;
+	/*margin: 108px 0 0 273px;*/
+	margin-top: 108px;
+	background: transparent url('/fileadmin/braille.at/img/logo_claim.png') no-repeat top left;
+	width: 686px;
+	height: 85px;
+	text-indent: -99999px;
+}
+
+#logo {
+	float: right;
+	margin-top: 116px;
+	background: transparent url('/fileadmin/braille.at/img/logo-oebsv.png') no-repeat top left;
+	width: 674px;
+	height: 78px;
+	text-indent: -99999px;
+}
+
+#search-nav-wrap {
+	float: left;
+	width: 11em;
+	margin: 6.875em 0 0 0;
+}
+
+body#sub #logo, body#sub #claim, body#sub #logo_claim, body#sub #search-nav-wrap {
+	margin-top: 3.25em;
+}
+
+body#sub #search-nav-wrap {
+	margin-left: -7px;
+}
+
+#form-suche {
+	float: left;
+	width: 10.7em;
+	margin-bottom: 0.5em;
+	-moz-box-shadow: 1px 2px 1px 0px #000000;
+	-webkit-box-shadow: 1px 2px 1px 0px #000000;
+	box-shadow: 1px 2px 1px 0px #000000;
+	background-color: #3c3c3c;
+}
+
+input#suchen {
+	float: left;
+	padding: 0 0 0 0.625em;
+	margin: 0;
+	width: 10em;
+	height: 1.6em;
+	font-style: italic;
+}
+
+button#suchen_submit {
+	background: url("/fileadmin/braille.at/img/search-submit.gif") no-repeat top left;
+    border: 0;
+    padding: 0;
+    text-indent: -99999px;
+	width: 1.8em;
+	height: 1.6em;
+	cursor: pointer;
+}
+
+#top-navigation {
+	float: left;
+	width: 10.7em;
+	font-family: 'Magra', serif;
+}
+
+#top-navigation li {
+	float: left;
+	width: 10.7em;
+}
+
+#top-navigation li.first a {
+	-moz-border-radius: 4px 4px 0px 0px;
+	-webkit-border-radius: 4px 4px 0px 0px;
+	border-radius: 4px 4px 0px 0px;
+	-moz-box-shadow: 1px 2px 1px 0px #3f3f3f;
+	-webkit-box-shadow: 1px 2px 1px 0px #3f3f3f;
+	box-shadow: 1px 2px 1px 0px #3f3f3f;
+}
+
+#top-navigation li.middle a {
+	-moz-box-shadow: 1px 2px 1px 0px #3f3f3f;
+	-webkit-box-shadow: 1px 2px 1px 0px #3f3f3f;
+	box-shadow: 1px 2px 1px 0px #3f3f3f;
+}
+
+#top-navigation li.last a {
+	-moz-border-radius: 0px 0px 4px 4px;
+	-webkit-border-radius: 0px 0px 4px 4px;
+	border-radius: 0px 0px 4px 4px;
+	-moz-box-shadow: 1px 2px 1px 0px #3f3f3f;
+	-webkit-box-shadow: 1px 2px 1px 0px #3f3f3f;
+	box-shadow: 1px 2px 1px 0px #3f3f3f;
+}
+
+#top-navigation li a {
+	float: right;
+	width: 7.7em;
+	background-color: #f5f4f4;
+	margin: 0.11em 0 0.15em 0;
+	padding: 0.26em 0.938em 0.26em 0;
+	color: #3c3c3c;
+	text-decoration: none;
+	font-size: 1.250em;
+	text-transform: uppercase;
+	text-align: right;
+	font-family: 'Magra', serif;
+}
+
+#top-navigation li a:focus, #top-navigation li a:hover, #top-navigation li.current a {
+	float: right;
+	width: 8.15em;
+	background-color: #3f3f3f;
+	color: #ffffff;
+}
+
+#main {
+	float: left;
+	width: 100%;
+	/*min-height: 37.500em;*/
+	padding-bottom: 3.125em;
+	background: transparent url('/fileadmin/braille.at/img/kacheln.jpg') top left;
+}
+
+#main-inner {
+	margin: 0 auto;
+	width: 62.5em;
+	/*overflow:hidden;*/
+	position: relative;
+	padding-top: 1.750em;
+}
+
+#main-inner.sub {
+	margin: -7.063em auto 0px auto;
+}
+
+#main-navigation {
+	float: left;
+	width: 13.64em;
+	position: relative;
+	z-index: 20;
+}
+
+#main-navigation li {
+	float: left;
+	width: 13.64em;
+}
+
+#main-navigation li a {
+	float: left;
+	width: 13.64em;
+	background-color: #f5f4f4;
+	margin: 0.125em 0 0.188em 0;
+	padding: 0.625em 0 0.5em 1.125em;
+	color: #3c3c3c;
+	text-decoration: none;
+	font-size: 0.875em;
+	text-align: left;
+	-moz-box-shadow: 1px 2px 1px 0px #3f3f3f;
+	-webkit-box-shadow: 1px 2px 1px 0px #3f3f3f;
+	box-shadow: 1px 2px 2px 0px #3f3f3f;
+	font-family: 'Magra', serif;
+}
+
+#main-navigation li a:focus, #main-navigation li a:hover, #main-navigation li.active a {
+	float: left;
+	background-color: #3f3f3f;
+	color: #ffffff;
+}
+
+#main-navigation li.active ul#nav2 li a {
+	width: 13em;
+	background-color: #f5f4f4;
+	padding: 0.625em 0 0.5em 1.75em;
+	color: #3c3c3c;
+}
+
+#main-navigation li.active ul#nav2 li#nav2act a {
+	background-color: #5d5d5d;
+	color: #f8f8f8;
+}
+
+#main-navigation li ul#nav2 li a:hover, #main-navigation li ul#nav2 li a {
+	float: left;
+	background-color: #3f3f3f;
+	color: #ffffff;
+}
+
+#main-content {
+	float: left;
+	/*width: 100%;*/
+	-moz-box-shadow: 2px 2px 1px 0px #8c8c8c;
+	-webkit-box-shadow: 2px 2px 1px 0px #8c8c8c;
+	box-shadow: 2px 2px 1px 0px #8c8c8c;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	font-size: 0.875em;
+}
+
+#spenden-wrapper {
+	position: relative;
+	padding: 1.313em 1.563em 0.625em 1.688em;
+	min-height: 5.125em;
+	background-color: #e8e8e8;
+	-moz-border-radius: 8px 8px 0px 0px;
+	-webkit-border-radius: 8px 8px 0px 0px;
+	border-radius: 8px 8px 0px 0px;
+	-moz-box-shadow: 1px 0px 0px 0px #8c8c8c;
+	-webkit-box-shadow: 1px 0px 0px 0px #8c8c8c;
+	box-shadow: 1px 0px 0px 0px #8c8c8c;
+	z-index: 20;
+	color: #3f3f3f;
+	font-family: 'Magra', serif;
+}
+
+#spenden-wrapper #spenden-inner h2 {
+	font-size: 1.6em;
+	margin-bottom: 0.938em;
+}
+
+#spenden-wrapper #spenden-inner p {
+	font-size: 1em;
+	line-height: 1.375em;
+}
+
+#spenden-wrapper #spenden-inner .csc-mailform {
+	position: absolute;
+	top: 1em;
+	right: 1.625em;
+}
+
+#spenden-wrapper #spenden-inner .csc-mailform form li {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+#spenden-wrapper #spenden-inner .csc-mailform form label {
+	float: left;
+    margin-right: 0;
+    vertical-align: baseline;
+    width: auto;
+    display: none;
+}
+
+#spenden-wrapper #spenden-inner .csc-mailform form li.csc-form-element-textline input {
+	margin: 0;
+	padding: 0 1.6em 0 0.4em;
+	height: 1.88em;
+	border: 1px solid #e21921;
+	background: #fff url('/fileadmin/braille.at/img/euro.gif') no-repeat center right;
+	font-family: 'Magra', serif;
+	font-size: 1.15em;
+	color: #474747;
+}
+
+#spenden-wrapper #spenden-inner .csc-mailform form li.csc-form-element-submit input {
+	width: 1.7em;
+	height: 2.4em;
+	border: 0;
+	text-indent: -624.938em;
+	background: #fff url('/fileadmin/braille.at/img/spenden-subpage-submit.gif') no-repeat center right;
+	cursor: pointer;
+}
+
+#spenden-wrapper #spenden-inner .csc-mailform form li.csc-form-element-textblock {
+	margin: 0.188em 0 0 0.625em;
+	color: #db1921;
+	font-size: 1.72em;
+}
+
+#main-content {
+	width: 100%;
+}
+
+#main-content-inner {
+	background-color: #f5f4f4;
+	padding: 1.125em 1.125em 0.625em 1.25em;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	color: #3f3f3f;
+	position: relative;
+	z-index: 20;
+}
+
+#main-content-inner .csc-default {
+	margin: 2em 0 1em 0;
+	display: inline-block;
+	width: 100%;
+}
+
+#main-content-inner a, #main-content-inner a:link, #main-content-inner a:visited {
+	color: #3f3f3f;
+	text-decoration: underline;
+}
+
+#main-content-inner a:hover, #main-content-inner a:active, #main-content-inner a:focus {
+	color: #ffffff;
+	background-color: #3f3f3f;
+}
+
+#main-content-inner h1, #main-content-inner h2, #main-content-inner h3 {
+	font-family: 'Magra', serif;
+	font-size: 1.3em;
+	margin-bottom: 0.75em;
+}
+
+#main-content-inner h2 {
+	font-size: 1.3em;
+}
+
+#main-content-inner h3 {
+	font-size: 1.2em;
+}
+
+#main-content-inner p {
+	line-height: 1.5em;
+	margin-bottom: 0.75em;
+}
+
+#main-content-inner DIV.csc-textpic-intext-left .csc-textpic-imagewrap, DIV.csc-textpic-intext-left-nowrap .csc-textpic-imagewrap {
+	margin-right: 1.688em;
+}
+
+#main-content-inner caption, .news-single-imgcaption {
+	padding-top: 0.188em;
+	font-size: 0.8em;
+	text-align: right;
+	font-style: italic;
+}
+
+.csc-textpic-caption {
+	padding: 2px 0px 0px 2px;
+	font-size: 0.85em;
+}
+
+#main-content-inner hr {
+	height: 1px;
+	background-color: #dedddd;
+	border: 0;
+}
+
+#main-content-inner ul {
+	margin-left: 1.563em;
+	list-style-position: outside;
+	list-style-type: square;
+}
+
+#main-content-inner ul li {
+	margin-bottom: 0.875em;
+}
+
+#main-content-inner ol {
+	margin-left: 1.563em;
+	list-style-position: outside;
+	list-style-type: decimal;
+}
+
+#main-content-inner ol li {
+	margin-bottom: 0.875em;
+}
+
+.you-are-here {
+	position: absolute;
+	left: -562.5em;
+	overflow: hidden;
+	display: inline;
+}
+
+#breadcrumbs {
+	margin-bottom: 0.5em;
+	list-style-type: none;
+	margin: 0 !important;
+	padding: 0;
+	}
+	
+#breadcrumbs li {
+	background: transparent url('/fileadmin/braille.at/img/breadcrumb-trenner.gif') 0 0.5em no-repeat;
+    display: inline;
+    padding: 0 0.5em 0 1.30em;
+	font-size: 0.688em;
+	}
+	
+#breadcrumbs li:first-child {
+	background: 0;
+	padding: 0;
+    padding-right: 1em;
+}
+
+#home #main-inner .csc-default,
+#home #main-inner .csc-default.csc-layout-0 .news-latest-container {
+	margin-bottom: 1.25em;
+}
+
+#home #main-inner .csc-default.csc-layout-0 .csc-textpic, 
+#home #main-inner .csc-default.csc-layout-0 .tx-jfmulticontent-pi1, 
+#home #main-inner .csc-default.csc-layout-0 .news-latest-container {
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	-moz-box-shadow: 0px 0px 6px 1px #b9b9b9;
+	-webkit-box-shadow: 0px 0px 6px 1px #b9b9b9;
+	box-shadow: 0px 0px 6px 1px #b9b9b9;
+	background-color: #f2f4f1;
+	font-family: 'Magra', serif;
+	font-size: 0.938em;
+	padding-bottom: 0.75em;
+}
+
+#home #main-inner .csc-default.csc-layout-0 .csc-textpic-image {
+	-moz-border-radius: 8px 8px 0px 0px;
+	-webkit-border-radius: 8px 8px 0px 0px;
+	border-radius: 8px 8px 0px 0px;
+	overflow: hidden;
+}
+
+#home #main-inner .csc-default.csc-layout-0 .tx-jfmulticontent-pi1 {
+	background-color: #ffffff;
+}
+
+#home #main-inner .csc-default.csc-layout-0 .tx-jfmulticontent-pi1 .csc-default.csc-layout-0 .csc-textpic {
+	border: 0;
+	box-shadow: none;
+	background: transparent;
+	color: #3f3f3f;
+}
+
+#home #main-inner .csc-default.csc-layout-0 .tx-jfmulticontent-pi1 .csc-default.csc-layout-0 {
+	color: #3f3f3f;
+}
+
+#home #main-inner .csc-default.csc-layout-0 .tx-jfmulticontent-pi1 .csc-default.csc-layout-0 a.internal-link, #home #main-inner .csc-default.csc-layout-0 .tx-jfmulticontent-pi1 .csc-default.csc-layout-0 a.internal-link:link, #home #main-inner .csc-default.csc-layout-0 .tx-jfmulticontent-pi1 .csc-default.csc-layout-0 a.internal-link:visited {
+	padding-left: 1em;
+	background: transparent url('/fileadmin/braille.at/img/spenden-pfeil.gif') 0 0.15em no-repeat;
+	color: #db1921;
+	font-size: 1.64em;
+	font-weight: bold;
+}
+
+#home #main-inner .csc-default.csc-layout-0 .tx-jfmulticontent-pi1 .csc-default.csc-layout-0 a.internal-link:hover, #home #main-inner .csc-default.csc-layout-0 .tx-jfmulticontent-pi1 .csc-default.csc-layout-0 a.internal-link:active, #home #main-inner .csc-default.csc-layout-0 .tx-jfmulticontent-pi1 .csc-default.csc-layout-0 a.internal-link:focus {
+	color: #ffffff;
+	background: #3f3f3f url('/fileadmin/braille.at/img/spenden-pfeil-hover.gif') 0 0.15em no-repeat;
+}
+
+#home #main-inner .subc .csc-mailform {
+	margin: 0 auto;
+	width: 85%;
+	height: 2.25em;
+	padding: 0.625em;
+	background-color: #f0f0f0;
+}
+
+#home #main-inner .subc .csc-mailform form li {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+#home #main-inner .subc .csc-mailform form label {
+	float: left;
+    margin-right: 0;
+    vertical-align: baseline;
+    width: auto;
+    display: none;
+}
+
+#home #main-inner .subc .csc-mailform form li.csc-form-element-textline input {
+	margin: 0;
+	padding: 0.15em 1.3em 0 0.4em;
+	height: 1.93em;
+	border: 1px solid #454545;
+	border-right: 0;
+	background: #fff url('/fileadmin/braille.at/img/euro.gif') no-repeat center right;
+	font-family: 'Magra', serif;
+	font-size: 1.05em;
+	color: #474747;
+}
+
+#home #main-inner .subc .csc-mailform form li.csc-form-element-submit input {
+	width: 6.875em;
+	height: 2.6em;
+	border: 0;
+	text-indent: -624.938em;
+	background: #fff url('/fileadmin/braille.at/img/spenden-startpage-submit.gif') no-repeat center right;
+	cursor: pointer;
+}
+
+#home #main-inner .subcr .csc-default {
+	font-size: 0.9em;
+	line-height: 20px;
+	margin-bottom: 2px;
+}
+
+#home #main-inner .subcl .csc-default {
+	margin-bottom: 2px;
+}
+
+.subc, .subcl, .subcr {
+	padding: 0;
+}
+
+.subcr {
+	padding: 0 10px 0px 10px;
+}
+
+#home #main-inner .csc-default .csc-textpic-text {
+	/*padding: 0px 20px 0px 20px;*/
+}
+
+#home #main-inner .csc-default .csc-textpic p {
+	font-size: 1.08em;
+	line-height: 1.5em;
+	color: #3f3f3f;
+}
+
+#home #main-inner .csc-default .csc-textpic ul {
+	margin-top: 0.625em;
+}
+
+#home #main-inner .csc-default .csc-textpic ul li {
+	border-top: 1px solid #eceeeb;
+}
+
+#home #main-inner .csc-default .csc-textpic ul li a, #home #main-inner .csc-default .csc-textpic ul li a:link, #home #main-inner .csc-default .csc-textpic ul li a:visited {
+	display: block;
+	font-size: 1em;
+	border-top: 1px solid #dadada;
+	padding: 5px 0 5px 0;
+}
+
+#home #main-inner .csc-default .csc-textpic ul li a:hover, #home #main-inner .csc-default .csc-textpic ul li a:active, #home #main-inner .csc-default .csc-textpic ul li a:focus {
+	background-color: #3f3f3f;
+	color: #ffffff;
+}
+
+#home #main-inner .csc-default .csc-textpic h1, #home #main-inner .csc-default .news-latest-container h2 {
+	font-size: 1.08em;
+	color: #db1921;
+	margin-bottom: 0.75em;
+}
+
+#home #main-inner .csc-default .csc-textpic h1, #home #main-inner .csc-default .news-latest-container h3 a {
+	font-weight: normal;
+}
+
+#home #main-inner .csc-default .csc-textpic a, #home #main-inner .csc-default .csc-textpic a:link, #home #main-inner .csc-default .csc-textpic a:visited {
+	color: #3f3f3f;
+	line-height: 1.5em;
+}
+
+#home #main-inner .csc-default .csc-textpic a:hover, #home #main-inner .csc-default .csc-textpic a:active, #home #main-inner .csc-default .csc-textpic a:focus {
+	background-color: #3f3f3f;
+	color: #ffffff;
+}
+
+#home #main-inner .csc-default .news-latest-container {
+	overflow: hidden;
+}
+
+#home #main-inner .csc-default .latest_img_wrap {
+	margin-bottom: 0.625em;
+}
+
+#home #main-inner .csc-default .news-latest-container .content-wrap a, #home #main-inner .csc-default .news-latest-container .content-wrap a:link, #home #main-inner .csc-default .news-latest-container .content-wrap a:visited {
+	color: #3f3f3f;
+	line-height: 1.5em;
+}
+
+#home #main-inner .csc-default .news-latest-container .content-wrap a:hover, #home #main-inner .csc-default .news-latest-container .content-wrap a:active, #home #main-inner .csc-default .news-latest-container .content-wrap a:focus {
+	background-color: #3f3f3f;
+	color: #ffffff;
+}
+
+.tx-indexedsearch .tx-indexedsearch-browsebox .browsebox {
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.tx-indexedsearch .tx-indexedsearch-whatis {
+	font-family: 'Magra', serif;
+	font-size: 18px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #dedddd;
+}
+
+.tx-indexedsearch .tx-indexedsearch-whatis .tx-indexedsearch-sw {
+	font-style: normal;
+}
+
+.tx-indexedsearch-res .tx-indexedsearch-res {
+	margin: 15px 0px 15px 0px;
+}
+
+.tx-indexedsearch-browsebox {
+	
+}
+
+.tx-indexedsearch .search-rating {
+	font-size: 0.85em;
+}
+
+.tx-indexedsearch .tx-indexedsearch-descr {
+	padding-top: 5px;
+	line-height: 1.5em;
+}
+
+.tx-indexedsearch .tx-indexedsearch-res .tx-indexedsearch-descr .tx-indexedsearch-redMarkup {
+	font-weight: bold;
+	color: #3f3f3f;
+}
+
+.news-list-item, .event-list-item {
+	padding: 10px 0px 10px 0px;
+}
+
+.news-list-item .news-list-morelink, 
+.event-list-item .news-list-morelink {
+	margin-left: 5px;
+}
+
+.news-list-item .latest_img_wrap, 
+.event-list-item .latest_img_wrap {
+	float: left;
+	margin-right: 5px;
+	margin: 0px 15px 15px 0px;
+}
+
+/*.news-list-item .news-list-item-content, 
+.event-list-itemn .event-list-item-content {
+	float: left;
+}*/
+
+.news-single-img {
+	float: right;
+}
+
+.clearer {
+	clear: both;
+}
+
+.csc-sitemap ul li ul {
+	margin-top: 10px;
+}
+
+#main-content #col-content-share {
+	float: left;
+	width: 740px;
+	background-color: #F5F4F4;
+	padding: 1.125em 1.125em 0.625em 1.25em;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	color: #3f3f3f;
+}
+
+#main-content #col-content-share-inner .share-this-article {
+	float: left;
+	font-family: 'Magra', serif;
+	font-size: 1.3em;
+	margin-right: 15px;
+	padding-top: 5px;
+}
+
+#main-content #col-content-share-inner ul {
+    list-style: none;
+    margin: 0;
+}
+
+#main-content #col-content-share-inner ul li {
+	float: left;
+	margin: 0;
+    margin-right: 35px;
+}
+
+#main-content #col-content-share-inner ul li a.facebook {
+	float: left;
+	padding: 10px 5px 0px 40px;
+	height: 24px;
+	background: transparent url('/fileadmin/braille.at/img/share-facebook.png') no-repeat top left;
+	color: #3f3f3f;
+}
+
+#main-content #col-content-share-inner ul li a.twitter {
+	float: left;
+	padding: 10px 5px 0px 40px;
+	height: 24px;
+	background: transparent url('/fileadmin/braille.at/img/share-twitter.png') no-repeat top left;
+	color: #3f3f3f;
+}
+
+#main-content #col-content-share-inner ul li a:hover, #main-content #col-content-share-inner ul li a:active, #main-content #col-content-share-inner ul li a:focus {
+	background-color: #3F3F3F;
+	color: #fff;
+}
+
+#main-content #col-content-share-inner a, #main-content #col-content-share-inner a:link, #main-content #col-content-share-inner a:visited {
+	font-family: 'Magra', serif;
+	font-size: 1.3em;
+}
+
+#main-content #col-content-share-inner a:hover, #main-content #col-content-share-inner a:active, #main-content #col-content-share-inner a:focus {
+	background-color: transparent;
+	color: #3f3f3f;
+}
+
+#footer {
+	float: left;
+	padding-top: 1.7em;
+	width: 100%;
+	min-height: 24.125em;
+	background-color: #3f3f3f;
+	color: #ffffff;
+	font-family: 'Oxygen', serif;
+	font-size: 0.875em;
+}
+
+#footer-inner .col {
+    margin-left:0;
+	padding: 0 0.25em 0.313em 0.313em;
+}
+
+#footer-inner {
+	margin: 0 auto;
+	width: 71.428571428571428571428571428571em; /* 1000/16px = 62.5 => container 0.875em => 14px ==> 1000/14 = 71,428571428571428571428571428571 */
+}
+
+#footer-inner .tx-powermail-pi1_mandatory {
+	font-size: 0.95em;
+}
+
+#footer-inner .powermail_mandatory_list {
+	margin-top: 5px;
+}
+
+#footer-inner .powermail_mandatory_list li {
+	margin-bottom: 5px;
+}
+
+#footer-inner .tx-powermail-pi1_mandatory {
+	margin: 1em 0 1em 0;
+}
+
+#footer-inner input {
+	font-family: 'Oxygen',serif;
+}
+
+#footer-inner textarea {
+	font-family: 'Oxygen',serif;
+	height: 125px;
+}
+
+#footer-inner input[type="submit"]:hover {
+	background: none;
+	background-color: #ffffff;
+	color: #3f3f3f;
+}
+
+#footer-inner a, #footer-inner a:link, #footer-inner a:visited {
+	color: #ffffff;
+}
+
+#footer-inner a:hover, #footer-inner a:active, #footer-inner a:focus {
+	background-color: #ffffff;
+	color: #3f3f3f;
+	text-decoration: none;
+}
+
+#footer-inner h1 {
+	font-size: 1.125em; 
+	margin-bottom: 0.75em;
+}
+
+#footer-inner h2, #footer-inner h3 {
+	font-size: 1.1428571428571428571428571428571em; /* 16/14 = 1,1428571428571428571428571428571 */
+	line-height: 1.5em;
+	margin-top: 0.75em;
+	margin-bottom: 0.375em;
+	font-weight: normal;
+}
+
+#footer-inner p {
+	line-height: 1.5em;
+}
+
+#footer-inner .border {
+	float: left;
+	width: 1.25em;
+	height: 21.25em;
+	background: transparent url('/fileadmin/braille.at/img/footer-trenner.gif') top center no-repeat;
+}
+
+#footer-inner .footer-left h1 {
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+#footer-inner .footer-left .tx-powermail-pi1 {
+	margin-top: 0.625em;
+}
+
+#footer-inner .footer-left .tx-powermail-pi1 #powermaildiv_uid5 {
+	display: none;
+}
+
+#footer-inner .footer-right .csc-layout-0 ul.csc-menu {
+	column-count: 2;
+	column-gap: 1.25em;
+	-webkit-column-count: 2;
+	-webkit-column-gap: 1.25em;
+	-moz-column-count: 2;
+	-moz-column-gap: 1.25em;
+	margin-bottom: 0.625em;
+}
+
+#footer-inner .footer-right .csc-layout-0 .header {
+	margin-bottom: 2em;
+}
+
+#footer-inner .footer-right .csc-layout-0 ul.csc-menu li {
+	font-size: 1.2857142857142857142857142857143em; /* 18/16 = 1.125 ==> container: 14px ==> 18/14 = 1,2857142857142857142857142857143  */
+	margin-bottom: 0.938em;
+}
+
+#footer-inner .footer-right .csc-layout-1 ul.csc-menu {
+	margin: 0 0 0.625em -0.625em;
+}
+
+#footer-inner .footer-right .csc-layout-1 ul.csc-menu li {
+	float: left;
+	padding-left: 0.625em;
+	padding-right: 0.625em;
+	background: transparent url('/fileadmin/braille.at/img/footer-metanav-trenner.gif') no-repeat top right;
+	font-size: 1.14em;
+}
+
+#footer-inner .footer-right .csc-layout-1 ul.csc-menu li:last-child {
+	background: none;
+}
+
+#footer-inner .footer-right .w3c-buttons {
+	float: left;
+	width: 100%;
+	margin: 0.9em 0 1.875em 0;
+}
+
+#footer-inner .footer-right .w3c-buttons li {
+	float: left;
+}
+
+#footer-inner .footer-right .w3c-buttons li.first {
+	margin-right: 0.375em;
+}
+
+#footer-inner .footer-right .w3c-buttons li.second {
+	margin-right: 0.375em;
+}
+
+#footer-inner .footer-right .w3c-buttons li.third {
+	margin-right: 0.375em;
+}
+
+#footer-inner .footer-right .w3c-buttons li.last {
+	margin: 0;
+}
+
+#footer-inner .footer-right .project-credits {
+	display: block;
+	clear: both;
+	color: #626262;
+	font-size: 0.85em;
+	font-family: 'Bitter', serif;
+}
+
+#footer-inner .footer-right .project-credits a {
+	color: #626262;
+	font-family: 'Bitter', serif;
+}
+
+#footer-inner .footer-right .project-credits a:hover, #footer-inner .footer-right .project-credits a:active, #footer-inner .footer-right .project-credits a:focus {
+	color: #3f3f3f;
+	background-color: #ffffff;
+	text-decoration: underline;
+}
+
+DIV.csc-textpic-above DIV.csc-textpic-imagewrap,
+DIV.csc-textpic-below DIV.csc-textpic-imagewrap,
+DIV.csc-textpic DIV.csc-textpic-imagewrap UL LI,
+DIV.csc-textpic DIV.csc-textpic-imagewrap DL.csc-textpic-image {
+	float: none;
+}

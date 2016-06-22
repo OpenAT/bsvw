@@ -1,0 +1,186 @@
+#form-spenden-wrapper {
+	/*padding-top: 20px;*/
+}
+
+form.form-spenden {
+	width: 44em;
+}
+
+form.form-spenden hr {
+	margin-bottom: 10px;
+	width: 120%;
+	height: 10%;
+}
+
+.legende {
+	background: transparent url('/fileadmin/braille.at/img/pflichtfeld_legende.png') no-repeat 0 0.3em;
+	padding-left: 2em;
+	height: 2.2em;
+	padding: 0.6em 0em 0.2em 2em;
+}
+
+.form-spenden fieldset legend {
+	display: none;
+}
+
+.form-spenden label.form-label {
+	display: block;
+	font-family: 'Magra', serif;
+	font-size: 1.29em;
+	margin-bottom: 0.438em;
+}
+
+.form-spenden label.form-label-radio, .form-spenden label.form-label-checkbox {
+	font-family: 'Magra', serif;
+	font-size: 1.29em;
+}
+
+.form-spenden input.form-text {
+	float: left;
+	width: 15.563em;
+	height: 1.813em;
+	background-color: #ffffff;
+	border: 0.063em solid #3f3f3f;
+	font-family: 'Magra', serif;
+	font-size: 1.125em;
+}
+
+.form-spenden .form-select {
+	float: left;
+	width: 15.7em;
+	height: 2.000em;
+	background-color: #ffffff;
+	border: 0.063em solid #3f3f3f;
+	font-family: 'Magra', serif;
+	font-size: 1.125em;
+}
+
+.form-spenden textarea {
+	float: left;
+	border: 1px solid #3f3f3f;
+	font-family: 'Magra', serif;
+}
+
+.form-spenden .form-left {
+	float: left;
+	width: 20.8em;
+	margin-right: 1.875em;
+}
+
+.form-spenden .form-left-single {
+	float: left;
+	width: 20.8em;
+	margin-right: 1.875em;
+	margin-bottom: 1.563em;
+}
+
+.form-spenden .form-right {
+	float: left;
+	width: 20.8em;
+	margin-bottom: 1.563em;
+}
+
+.form-spenden .form-right-single {
+	float: right;
+	width: 20.8em;
+	margin-right: 6.563em;
+	margin-bottom: 1.563em;
+}
+
+.form-spenden .form-full {
+	float: left;
+	margin-bottom: 1.563em;
+	width: 39.375em;
+}
+
+.mandatory {
+	float: left;
+	margin-top: 0.063em;
+	margin-left: 0.188em;
+	background: transparent url('/fileadmin/braille.at/img/pflichtfeld.png') no-repeat top left;
+	width: 31px;
+	height: 31px;
+	overflow: hidden;
+	text-indent: -624.938em;
+}
+
+.mandatory_radio {
+	float: right;
+	margin-top: 0.063em;
+	margin-right: 0.8em;
+	background: transparent url('/fileadmin/braille.at/img/pflichtfeld.png') no-repeat top left;
+	width: 31px;
+	height: 31px;
+	overflow: hidden;
+	text-indent: -624.938em;
+}
+
+.fillin {
+	float: left;
+	display: block;
+	width: 73%;
+	background: #f6b7b9 url('/fileadmin/braille.at/img/mandatory.png') no-repeat 0.500em 0.500em;
+	margin: 1.250em 0 1.250em 0;
+	padding: 1.250em 0.625em 1.250em 3.750em;
+	border: 0.063em solid #e21921;
+	color: #000000;
+	font-family: 'Magra', serif;
+	font-size: 1.125em;
+}
+
+.fillin_mpay {
+	display: block;
+	width: 34.063em;
+	background: #f6b7b9 url('/fileadmin/braille.at/img/mandatory.png') no-repeat 0.500em 0.500em;
+	margin: 1.250em auto;
+	padding: 1.250em 0.625em 1.250em 3.750em;
+	border: 0.063em solid #e21921;
+	color: #000000;
+	font-family: 'Magra', serif;
+	font-size: 1.125em;
+}
+
+.success {
+	margin: 1.250em auto;
+	display: block;
+	width: 34.063em;
+	padding: 1.250em 0.625em 1.250em 0;
+	border: 0.063em solid #000000;
+	color: #3f3f3f;
+	font-family: 'Magra', serif;
+	font-size: 1.125em;
+	text-align: center;
+	background: #c6e5ca url('/fileadmin/braille.at/img/success_check.png') no-repeat 23.125em 0.938em;
+}
+
+.success h1.success_headline {
+	display: block;
+	font-size: 1.500em !important;
+	
+}
+
+.success p {
+	clear: both;
+}
+
+.form-spenden input.button-submit {
+	float: right;
+	border: 0;
+	-webkit-box-shadow: 0.063em 0.125em 0.063em 0 #3f3f3f;
+	box-shadow: 0.063em 0.125em 0.063em 0 #3f3f3f;
+	background-color: #5d5d5d;
+	font-family: 'Magra', serif;
+	font-size: 1.500em;
+	text-align: center;
+	color: #ffffff;
+	cursor: pointer;
+	width: 10em;
+}
+
+.form-spenden input.button-submit:hover {
+	background-color: #929292;
+}
+
+.clear.spacer {
+	height: 0.500em;
+}
