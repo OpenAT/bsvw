@@ -2,8 +2,13 @@
 /* BOOTSTRAP FIXES */
 /* --------------- */
 
+main .container {
+    width: 100%;
+    max-width: 1024px;
+}
 /* Media width fixes */
 /* TODO: change and understand max container sizes: http://getbootstrap.com/customize/#container-sizes */
+
 @media (min-width: 773px) {
     .container {
         width: 1155px;
@@ -96,7 +101,6 @@ header a.navbar-brand img {
 }
 #price_donate {
     color: inherit;
-    font-size: 2.0vw;
 }
 
 
