@@ -1,0 +1,67 @@
+/* Reusable column setup */
+.col {
+    border:0em solid rgba(0,0,0,0);
+    float:left;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    -moz-background-clip:padding-box !important;
+    -webkit-background-clip:padding-box !important;
+    background-clip:padding-box !important;
+}
+
+/* 1. 9 Column Grid 0px - Infinity 
+----------------------------------------------------------------------------- 
+
+Span 1:    9.33333333333%
+Span 2:    20.6666666667%
+Span 3:    32.0%
+Span 4:    43.3333333333%
+Span 5:    54.6666666667%
+Span 6:    66.0%
+Span 7:    77.3333333333%
+Span 8:    88.6666666667%
+Span 9:    100%
+
+----------------------------------------------------------------------------- */
+
+@media screen and (min-width: 0) {
+    
+    .col {
+        margin-left:2%;
+    	/*padding: 0px 4px 5px 5px;*/
+    }
+    
+    .grid .col:first-child {
+        margin-left:0;
+    }
+    
+    .span_1 {
+        width:9.33333333333%;
+    }
+    .span_2 {
+        width:20.6666666667%;
+    }
+    .span_3 {
+        width:32.0%;
+    }
+    .span_4 {
+        width:43.3333333333%;
+    }
+    .span_5 {
+        width:54.6666666667%;
+    }
+    .span_6 {
+        width:66.0%;
+    }
+    .span_7 {
+        width:77.3333333333%;
+    }
+    .span_8 {
+        width:88.6666666667%;
+    }
+    .span_9 {
+        margin-left:0;
+        width:100%;
+    }
+}
