@@ -16,7 +16,75 @@ body #wrapwrap footer {
     background: #1f1f1f;
     color: white;
 }
+/* --------------- */
+/* BOOTSTRAP FIXES */
+/* --------------- */
 
+main .container {
+    width: 100%;
+    max-width: 1024px;
+}
+/* Media width fixes */
+/* TODO: change and understand max container sizes: http://getbootstrap.com/customize/#container-sizes */
+
+@media (min-width: 773px) {
+    .container {
+        width: 1155px;
+        width: inherit;
+    }
+}
+@media (min-width: 600px) {
+    .container {
+        width: 955px;
+        width: inherit;
+    }
+}
+@media (min-width: 500px) {
+    .container {
+        width: 735px;
+        width: inherit;
+    }
+}
+.row {
+     margin-left: 0;
+     margin-right: 0;
+}
+
+/* checkoutform
+TODO Check ob diese Settings auch über BOOTSTRAP einstellbar sind
+*/
+#wsd_checkout_form .form-control {
+    padding: auto;
+}
+.row .wsd_opc_delivery {
+    display: none;
+}
+#website_sale_login_info {
+    display: none;
+}
+
+@media (max-width: 740px) {
+.col-md-push-8 {
+    left: initial;
+}
+.col-md-offset-1 {
+    margin-left: initial;
+}
+#wsd_checkout_page_right_column {
+    width: 100%;
+    float:left;
+}
+#wsd_checkout_page_left_column {
+    right: initial;
+}
+.col-md-8 {
+    width: 100%;
+}
+/* Warenkorb*/
+#right_column {
+    display:none;
+}
+}
 
 /* ------------------- */
 /* BOOTSTRAP MODAL BOX */
