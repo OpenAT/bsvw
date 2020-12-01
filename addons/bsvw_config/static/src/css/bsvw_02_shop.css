@@ -42,7 +42,10 @@ body #wsd-checkout-box {
     margin-top: 12px;
 }
 
-
+/* OnePage Checkout */
+.ppt_opc #wsd-checkout-box img.product-image {
+    width: initial;
+}
 /* ---- */
 /* CART */
 /* ---- */
@@ -137,7 +140,7 @@ div.checkout_steps_buttons {
 }
 
 #wsd_checkout_form .form-control-feedback {
-    top: 25px;
+    top: 25px !important;
 }
 
 /* ------- */
@@ -159,7 +162,7 @@ div.checkout_steps_buttons {
 }
 
 /* BIC ausblenden TODO: Must be done by xml! */
-#aq4 > div:nth-child(6) {
+#aq2 > div:nth-child(6) {
     display: none;
 }
 
