@@ -44,7 +44,7 @@ body #wsd-checkout-box {
 
 /* OnePage Checkout */
 .ppt_opc #wsd-checkout-box img.product-image {
-    width: initial;
+    width: initial !important;
 }
 /* ---- */
 /* CART */
