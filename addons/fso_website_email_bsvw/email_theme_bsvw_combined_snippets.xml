@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+<data>
+
+
+    <!-- INHERIT AND EXTEND theme_default_snippets -->
+    <template id="email_theme_bsvw_snippets_overrides_prat2" inherit_id="fso_website_email.theme_framework_snippets"
+              name="Email Theme bsvw Snippet overrides part2">
+
+        <xpath expr="//li[@id='snippet_menu_special']" position="after">
+            <li id="snippet_menu_combined_snippets_bsvw">
+                <a href="#combined_snippets_bsvw" data-toggle="tab">Combined</a>
+            </li>
+        </xpath>
+
+        <!-- ======================= -->
+        <!--  bsvw COMBINED SNIPPETS -->
+        <!-- ======================= -->
+        <xpath expr="//div[@id='snippet_email_special']" position="after">
+            <div id="combined_snippets_bsvw" class="tab-pane fade">
+
+                <!-- HEADER SNIPPET BLOCK ALLG -->
+                <!-- =============== -->
+                <div>
+                    <!-- Icon and name -->
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img"
+                             src="/fso_website_email_bsvw/static/src/icons/bsvw_nl_header_icon.png"/>
+                        <span class="oe_snippet_thumbnail_title">Header Snippet</span>
+                    </div>
+                    <div id="combinedheadersnippetWebVersion" class="oe_snippet_body ckediting_disabled bsvw_bin">
+                     <div class="snippet_block ckediting_enabled snippet_block_text_intro bsvw_sb_bg_background">
+                        <table class="centeringTable" cellpadding="0" cellspacing="0">
+                            <tbody>
+                                <tr>
+                                    <td align="center" valign="top">
+                                        <table class="flexibleContainer" border="0" cellpadding="0" cellspacing="0">
+                                            <tbody>
+                                                <tr>
+                                                    <td class="flexibleContainerCell" align="center" valign="top">
+                                                        <table class="nestedContainer" border="0" cellpadding="0"
+                                                               cellspacing="0">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td class="nestedContainerCell" align="center"
+                                                                        valign="top">
+                                                                        <table class="contentTable" border="0"
+                                                                               cellpadding="0" cellspacing="0">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td class="textContent ckediting_enabled"
+                                                                                        contenteditable="true">
+                                                                                        <p class="bsvw_tiny"
+                                                                                           style="text-align: center;">
+                                                                                            <a href="%open_browser%" data-cke-saved-href="%open_browser%" target="_blank" style="text-align: center; color: gray; font-weight: 700; font-size: 12px;">Zur Webversion</a>
+                                                                                        </p>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div id="combinedheadersnippet" class="ckediting_enabled snippet_block_text_image_left bsvw_large_image">
+                            <table class="centeringTable" cellpadding="0" cellspacing="0">
+                                <tbody>
+                                    <tr>
+                                        <td align="center" valign="top">
+                                            <table class="flexibleContainer" border="0" cellpadding="0" cellspacing="0">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="flexibleContainerCell" align="center" valign="top">
+                                                            <table class="nestedContainer" border="0" cellpadding="0"
+                                                                   cellspacing="0">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td class="nestedContainerCell" align="center"
+                                                                            valign="top">
+                                                                            <table class="contentTable" border="0"
+                                                                                   cellpadding="0" cellspacing="0">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class="textContent">
+                                                                                            <table class="flexibleContainerLeft"
+                                                                                                   align="left"
+                                                                                                   border="0"
+                                                                                                   cellpadding="0"
+                                                                                                   cellspacing="0">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td align="left"
+                                                                                                            valign="top"
+                                                                                                            class="imageContent ckediting_enabled"
+                                                                                                            contenteditable="true">
+                                                                                                            <a href="https://www.blindenverband-wnb.at/helfen-und-spenden/jetzt-spenden/">
+                                                                                                                <img src="/fso_website_email_bsvw/static/src/img/Bsvw-logo.jpg" class="flexibleImage" width="350" alt="TGS Logo" style="display: block; border: 0px; outline: none; width: 100%; height: auto; max-width: 350px;"/>
+                                                                                                            </a>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+                                                                                            <table class="flexibleContainerRight"
+                                                                                                   align="right"
+                                                                                                   border="0"
+                                                                                                   cellpadding="0"
+                                                                                                   cellspacing="0">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td valign="top"
+                                                                                                            class="textContent ckediting_enabled"
+                                                                                                            contenteditable="true">
+                                                                                                            <span class="ckediting_enabled drop_in drop_next drop_in_button dadi_di_button_normal bsvw_di_button_green dadi_di_button_fullright bsvw_di_button_width_full"
+                                                                                                                  contenteditable="true">
+                                                                                                                <a data-cke-saved-href="#"
+                                                                                                                   href="#">
+                                                                                                                    &gt;&gt;
+                                                                                                                    jetzt
+                                                                                                                    Spenden
+                                                                                                                </a>
+                                                                                                            </span>
+                                                                                                            <h3>
+                                                                                                                <br></br>
+                                                                                                            </h3>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                    </div>
+                    </div>
+                </div>
+                <!-- FOOTER SNIPPET BLOCK -->
+                <!-- =============== -->
+                <div>
+                    <!-- Icon and name -->
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img"
+                             src="/fso_website_email_bsvw/static/src/icons/bsvw_nl_footer_icon.png"/>
+                        <span class="oe_snippet_thumbnail_title">Footer Snippet</span>
+                    </div>
+                    <div id="combinedsnippetfooter" class="oe_snippet_body ckediting_disabled bsvw_bin">
+						<div class="ckediting_disabled snippet_block snippet_block_text_intro bsvw_sb_bg_yellow">
+							<table cellpadding="0" cellspacing="0" class="centeringTable">
+								<tbody>
+									<tr>
+										<td align="center" valign="top">
+											<table border="0" cellpadding="0" cellspacing="0" class="flexibleContainer">
+												<tbody>
+													<tr>
+														<td align="center" class="flexibleContainerCell" valign="top">
+															<table border="0" cellpadding="0" cellspacing="0"
+																   class="nestedContainer">
+																<tbody>
+																	<tr>
+																		<td align="center" class="nestedContainerCell"
+																			valign="top">
+																			<table border="0" cellpadding="0"
+																				   cellspacing="0" class="contentTable">
+																				<tbody>
+																					<tr>
+																						<td class="textContent ckediting_enabled">
+																							<h2 style="text-align: center;">
+																								Sicher Spenden
+																							</h2>
+																						</td>
+																					</tr>
+																				</tbody>
+																			</table>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+														</td>
+													</tr>
+												</tbody>
+											</table>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="ckediting_disabled snippet_block snippet_block_text_threecol bsvw_sb_bg_yellow">
+							<table cellpadding="0" cellspacing="0" class="centeringTable">
+								<tbody>
+									<tr>
+										<td align="center" valign="top">
+											<table border="0" cellpadding="0" cellspacing="0" class="flexibleContainer">
+												<tbody>
+													<tr>
+														<td align="center" class="flexibleContainerCell" valign="top">
+															<table border="0" cellpadding="0" cellspacing="0"
+																   class="nestedContainer">
+																<tbody>
+																	<tr>
+																		<td align="center" class="nestedContainerCell"
+																			valign="top">
+																			<table border="0" cellpadding="0"
+																				   cellspacing="0" class="contentTable">
+																				<tbody>
+																					<tr>
+																						<td class="textContent">
+																							<table align="left"
+																								   border="0"
+																								   cellpadding="0"
+																								   cellspacing="0"
+																								   class="flexibleContainer33 flexibleContainer33left">
+																								<tbody>
+																									<tr>
+																										<td align="center"
+																											class="textContent ckediting_enabled"
+																											style="text-align:center;"
+																											valign="top">
+																											<img class="flexibleImage"
+																												 src="/fso_website_email_bsvw/static/src/img/spendenguetsiegel.png"
+																												 style="text-align:center;"/>
+																										</td>
+																									</tr>
+																								</tbody>
+																							</table>
+
+																							<table align="left"
+																								   border="0"
+																								   cellpadding="0"
+																								   cellspacing="0"
+																								   class="flexibleContainer33 flexibleContainer33middle">
+																								<tbody>
+																									<tr>
+																										<td align="center"
+																											class="textContent ckediting_enabled"
+																											style="text-align:center;"
+																											valign="top">
+																											<img class="flexibleImage"
+																												 src="/fso_website_email_bsvw/static/src/img/ssl.png"
+																												 style="text-align:center;"/>
+																										</td>
+																									</tr>
+																								</tbody>
+																							</table>
+
+																							<table align="left"
+																								   border="0"
+																								   cellpadding="0"
+																								   cellspacing="0"
+																								   class="flexibleContainer33 flexibleContainer33right">
+																								<tbody>
+																									<tr>
+																										<td align="center"
+																											class="textContent ckediting_enabled"
+																											style="text-align:center;"
+																											valign="top">
+																											<br></br>
+																											<img class="flexibleImage"
+																												 src="/fso_website_email_bsvw/static/src/img/Spendenstempel.png"
+																												 style="text-align:center;"/>
+																										</td>
+																									</tr>
+																								</tbody>
+																							</table>
+																						</td>
+																					</tr>
+																				</tbody>
+																			</table>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+														</td>
+													</tr>
+												</tbody>
+											</table>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div id="footerinfobereich"
+							 class="ckediting_disabled snippet_block snippet_block_text_threecol bsvw_sb_bg_darkgrey">
+							<table cellpadding="0" cellspacing="0" class="centeringTable">
+								<tbody>
+									<tr>
+										<td align="center" valign="top">
+											<table border="0" cellpadding="0" cellspacing="0" class="flexibleContainer">
+												<tbody>
+													<tr>
+														<td align="center" class="flexibleContainerCell" valign="top">
+															<table border="0" cellpadding="0" cellspacing="0"
+																   class="nestedContainer">
+																<tbody>
+																	<tr>
+																		<td align="center" class="nestedContainerCell"
+																			valign="top">
+																			<table border="0" cellpadding="0"
+																				   cellspacing="0" class="contentTable">
+																				<tbody>
+																					<tr>
+																						<td class="textContent">
+																							<table align="left"
+																								   border="0"
+																								   cellpadding="0"
+																								   cellspacing="0"
+																								   class="flexibleContainer33 flexibleContainer33left">
+																								<tbody>
+																									<tr>
+																										<td align="center"
+																											class="textContent ckediting_enabled"
+																											style="text-align:center;"
+																											valign="top">
+																											<h4 style="text-align:center;">
+																												Kontakt
+																											</h4>
+																											<div>
+																												<p class="bsvw_small">
+																													<span style="color:#ffffff;">
+																														Blindenverband WNB<br></br>
+																														Louis Braille Haus<br></br>
+																														Hägelingasse 4-6<br></br>
+																														1140 Wien<br></br>
+																														Tel. (01) 981 89-330<br></br>
+																													</span>
+																												</p>
+																											</div>
+																										</td>
+																									</tr>
+																								</tbody>
+																							</table>
+
+																							<table align="left"
+																								   border="0"
+																								   cellpadding="0"
+																								   cellspacing="0"
+																								   class="flexibleContainer33 flexibleContainer33middle">
+																								<tbody>
+																									<tr>
+																										<td align="center"
+																											class="textContent ckediting_enabled"
+																											style="text-align:center;"
+																											valign="top">
+																											<h4 style="text-align:center;">
+																												Finden
+																												Sie uns
+																												<br/>
+																												auf
+																											</h4>
+
+																											<div><a target="_blank" style="text-decoration:none;" href="https://www.facebook.com/blindenverband.wnb">
+																												<img src="/fso_website_email_bsvw/static/src/icons/Facebook-Icon.png"
+																													 style="width:45px;"/>
+																												</a>
+																												<a target="_blank" style="text-decoration:none;" href="https://www.youtube.com/c/BSVWienNOundBgld">
+																												<img src="/fso_website_email_bsvw/static/src/icons/Youtube-Icon.png"
+																													 style="width:45px;"/>
+																												</a>
+																												<a target="_blank" style="text-decoration:none;" href="https://www.instagram.com/blindenverband_wnb/">
+																												<img src="/fso_website_email_bsvw/static/src/icons/Instagram.png"
+																													 style="width:45px;"/>
+																												</a>
+																											</div>
+																										</td>
+																									</tr>
+																								</tbody>
+																							</table>
+
+																							<table align="left"
+																								   border="0"
+																								   cellpadding="0"
+																								   cellspacing="0"
+																								   class="flexibleContainer33 flexibleContainer33right">
+																								<tbody>
+																									<tr>
+																										<td align="center"
+																											class="textContent ckediting_enabled"
+																											style="text-align:center;"
+																											valign="top">
+																											<h4 style="text-align:center;">
+																												Datenschutz
+																											</h4>
+
+																											<div>
+																												<p class="bsvw_small">
+																													<span style="color:#ffffff;">
+																														Informationen
+																														zum
+																														Datenschutz
+																														finden
+																														Sie
+																														direkt
+																														auf
+																														unserer
+																														Internetseite
+																													</span>
+																													<br></br>
+																													<a class="bsvw_small" style="color:#fff;" href="https://www.blindenverband-wnb.at/"
+																												   		target="_blank">
+																														zur Homepage<br></br>
+																													</a>
+																													<a class="bsvw_small" style="color:#fff;" href="https://www.blindenverband-wnb.at/datenschutz/"
+																												   		target="_blank">
+																														Datenschutzrichtlinie<br></br>
+																													</a>
+																												</p>
+																											</div>
+																										</td>
+																									</tr>
+																								</tbody>
+																							</table>
+																						</td>
+																					</tr>
+																				</tbody>
+																			</table>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+														</td>
+													</tr>
+												</tbody>
+											</table>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div id="footerinfobereichend"
+							 class="ckediting_disabled snippet_block snippet_block_text_intro bsvw_sb_bg_darkgrey">
+							<table cellpadding="0" cellspacing="0" class="centeringTable">
+								<tbody>
+									<tr>
+										<td align="center" valign="top">
+											<table border="0" cellpadding="0" cellspacing="0" class="flexibleContainer">
+												<tbody>
+													<tr>
+														<td align="center" class="flexibleContainerCell" valign="top">
+															<table border="0" cellpadding="0" cellspacing="0"
+																   class="nestedContainer">
+																<tbody>
+																	<tr>
+																		<td align="center" class="nestedContainerCell"
+																			valign="top">
+																			<table border="0" cellpadding="0"
+																				   cellspacing="0" class="contentTable">
+																				<tbody>
+																					<tr>
+																						<td class="textContent ckediting_enabled">
+																							<span style="color:#ffffff;">
+																								<p class="bsvw_small"
+																								   style="text-align: center;">
+																									Sie erhalten diese E-Mail, weil Sie den Blinden- und Sehbehindertenverband Wien, NÖ und Burgenland mit Spenden unterstützen, oder weil Sie sich für unseren Newsletter angemeldet haben.
+																								</p>
+																							</span>
+																							<p class="bsvw_small"
+																							   style="text-align: center;">
+																								<span class="bsvw_small" style="color:#ffffff;">
+																									<a class="bsvw_small" href="mailto:spende@blindenverband-wnb.at?subject=Bitte%20%C3%A4ndern%20Sie%20meine%20Daten"
+																									   target="_blank">
+																										Meine Daten
+																										ändern
+																									</a>
+																									|
+																									<a class="bsvw_small" href="https://www.blindenverband-wnb.at/kontakt/newsletter-abmeldung/abmeldebestaetigung/"
+																									   target="_blank">
+																										Vom Newsletter
+																										abmelden
+																									</a>
+																								</span>
+																							</p>
+																						</td>
+																					</tr>
+																				</tbody>
+																			</table>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+														</td>
+													</tr>
+												</tbody>
+											</table>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+
+                    </div>
+                </div>
+            </div>
+        </xpath>
+    </template>
+
+
+</data>
+</openerp>
