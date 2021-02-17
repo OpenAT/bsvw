@@ -50,17 +50,14 @@ h1, h2, h3, h4, h4.oe_price_h4, h5, h6 {
 }
 
 body {
-    margin: 0;
     font-family: "Lato", Helvetica, Arial, sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.65;
     color: #212529;
-    text-align: left;
-    background-color: #fff;
 }
 p {
-font-size:1.0rem;
+font-size:1.0em;
 }
 
 h1 {
