@@ -146,6 +146,12 @@ div.checkout_steps_buttons {
     top: 25px !important;
 }
 
+/* Spendenbox */
+#price_donate.btn-primary {
+  background-color: white;
+  color: #212529;
+}
+
 /* ------- */
 /* PAYMENT */
 /* ------- */
