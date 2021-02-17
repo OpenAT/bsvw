@@ -16,6 +16,75 @@ body #wrapwrap footer {
     background: #1f1f1f;
     color: white;
 }
+/* Typografie */
+/* latin-ext */
+@font-face {
+  font-family: 'Magra';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Magra'), url(http://fonts.gstatic.com/s/magra/v4/AcZ5oy5lFSDOaDRdF5XLe4DGDUGfDkXyfkzVDelzfFk.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Magra';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Magra'), url(http://fonts.gstatic.com/s/magra/v4/zQYEideR9pInJzQZsxxg-KCWcynf_cDxXwCLxiixG1c.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: normal;
+    src: url("https://www.blindenverband-wnb.at/typo3conf/ext/oebsv_base/Resources/Public/Fonts/Lato/lato-v14-latin-regular.eot?") format("eot"),
+        url(".https://www.blindenverband-wnb.at/typo3conf/ext/oebsv_base/Resources/Public/Fonts/Lato/lato-v14-latin-regular.woff2") format("woff2"),
+        url("https://www.blindenverband-wnb.at/typo3conf/ext/oebsv_base/Resources/Public/Fonts/Lato/lato-v14-latin-regular.woff") format("woff"),
+        url("https://www.blindenverband-wnb.at/typo3conf/ext/oebsv_base/Resources/Public/Fonts/Lato/lato-v14-latin-regular.ttf") format("truetype"),
+        url("https://www.blindenverband-wnb.at/typo3conf/ext/oebsv_base/Resources/Public/Fonts/Lato/lato-v14-latin-regular.svg#Lato") format("svg");
+}
+
+h1, h2, h3, h4, h4.oe_price_h4, h5, h6 {
+  font-family: 'Lato';
+}
+
+body {
+    margin: 0;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.65;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+p {
+font-size:1.0rem;
+}
+
+h1 {
+font-size:2.5rem;
+}
+
+h2 {
+font-size:2.0rem;
+}
+h3 {
+font-size:1.8rem;
+}
+
+h4 {
+font-size:1.5rem;
+}
+
+h5 {
+font-size:1.4rem;
+}
+h6 {
+font-size:1.2rem;
+}
+
 /* --------------- */
 /* BOOTSTRAP FIXES */
 /* --------------- */
