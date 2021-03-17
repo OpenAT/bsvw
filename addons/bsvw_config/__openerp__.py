@@ -23,6 +23,7 @@ Customer configuration for the instance bsvw
         'portal_sale',
         'website',
         'website_sale_donate',
+        'website_image_settings',
     ],
     'data': [
         'views/templates.xml',
